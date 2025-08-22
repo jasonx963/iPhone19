@@ -1,0 +1,14 @@
+{
+  "name": "iphone-site",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo \"static site\"",
+    "start": "node -e \"console.log('ok')\""
+  },
+  "dependencies": {
+    "@vercel/kv": "latest",
+    "busboy": "1.6.0"
+  }
+}
